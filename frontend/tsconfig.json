@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "jsx": "react-jsx",
     "baseUrl": "./src",
     "target": "es5",
     "lib": [
@@ -19,8 +20,5 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true
-  },
-  "include": [
-    "./src/ts/**/*"
-  ]
+  }
 }
